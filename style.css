@@ -44,8 +44,8 @@
 }
 
 .card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sesuaikan nilai shadow sesuai preferensi Anda */
-    transition: box-shadow 0.3s ease-in-out; /* Animasi transisi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .card-text {
@@ -69,22 +69,21 @@
     z-index: 1;
 }
 
-/* CSS untuk mengubah warna pagination Bootstrap menjadi hitam saat tidak aktif */
 .page-link {
-    color: black; /* Warna teks saat tidak aktif */
-    background-color: transparent; /* Warna latar belakang saat tidak aktif */
+    color: black;
+    background-color: transparent;
 }
 
 .page-link:focus,
 .page-link:hover {
-    color: orange; /* Warna teks saat hover */
+    color: orange;
     background-color: transparent;
 }
 
 
 .page-link.active-orange {
     color: white;
-    background-color: orange; /* Sesuaikan dengan kebutuhan */
+    background-color: orange;
 }
 
 
